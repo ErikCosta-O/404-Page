@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+*{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/backiee-119980.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#content{
+    display: grid;
+    justify-content: center;
+    margin-top: 13%;
+    width: 100%;
+}
+#content .error{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 5.9rem;
+    font-weight: bold;
+    color: #f1faee;
+    text-shadow: 4px 5px 11px rgba(0,0,0,0.83);
+}
+#content .error{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 3px solid rgba(255, 255, 255, 0.39);
+    box-shadow: 0 0px 30px 0 #ff006f42;
+}
+#content .description{
+    font-weight: bold;
+    font-size: 1.6rem;
+    display: grid;
+    text-align: center;
+    color: #000000;
+}
+.description .lb01{
+    padding-top: 40px;
+    text-align: center;
+}
+#content .error{
+    text-transform: uppercase;
+}
+.description p{
+    text-decoration: none;
+    padding-top: 10px;
+}
+/* CSS botão*/
+.return{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+button {
+    background: #ff006f42;
+    text-shadow: 4px 5px 11px rgba(0, 0, 0, 0.548);
+    font-family: inherit;
+    padding: 0.6em 1.3em;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff;
+    border: 0.4vh solid black;
+    border-radius: 0.8vh;
+    box-shadow: 0.1em 0.1em #000;
+}
+button:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #000;
+}
+button:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.04em 0.04em #000;
+}
